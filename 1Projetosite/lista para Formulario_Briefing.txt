@@ -1,0 +1,46 @@
+Nome da empresa
+Telefone
+Cidade
+Estado
+Site da empresa (se houver)
+Como me encontrou?
+Google
+Facebook
+Instagram
+Indicação
+Outro:
+Qual seu tipo de negócio?
+Serviços / Empresa
+Bares e Restaurantes
+Linha de produtos
+Roupas e acessórios
+Eletro / Eletrônicos
+Outro:
+Porte da empresa
+Profissional liberal
+Micro (2-10 funcionários)
+Pequena (10-50 funcionários)
+Média (50-100 funcionários)
+Grande (mais de 100 funcionários)
+Do que você precisa? (marque quantas opções forem necessárias)
+Logo
+Cartão de visitas
+Papel timbrado
+Envelope A4 (cabe uma folha sulfite inteira)
+Envelope Carta (cabe uma folha sulfite dobrada em 2)
+Envelope Oficio (cabe uma folha sulfite dobrada em 3)
+Sacolas
+Carimbo
+Pasta A4
+Folder
+Uniforme / Avental
+Website (apenas layout)
+Brindes (Ex: Lápis / Caneca / Chaveiro)
+Flyer
+Adesivos
+Crachá
+Pra quando você precisa do projeto?
+Precisa de imagem pra rede social? (Capa, avatar e modelo de postagem para facebook / instagram)
+Sim
+Não
+Conte-me mais sobre sua empresa e/ou dê considerações finais
