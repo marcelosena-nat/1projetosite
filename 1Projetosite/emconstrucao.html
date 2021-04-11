@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <title>Em construção</title>
         <meta charset="UTF-8" />
@@ -11,10 +11,144 @@
             rel="stylesheet"
             integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
             crossorigin="anonymous"
+            
         />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Página em construção!</h1>
+
+        <header class="fixed-top header-scrolled topo shadow ">
+        <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">Home</a>
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon bg-body"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse"
+                                id="navbarSupportedContent"
+                            >
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#sobre"
+                                            >Sobre</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#services"
+                                            >Serviços</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="emconstrucao.html"
+                                            >Colaboradores</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="Briefing.html"
+                                            >Briefing</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="emconstrucao.html"
+                                            >Orçamento</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contato"
+                                            >Contato</a
+                                        >
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                    />
+                                    <button
+                                        class="btn btn-outline-success"
+                                        type="submit"
+                                    >
+                                        Search
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                </nav> 
+                    
+            </header>
+
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col nome">
+                        <div class="contact-contact">
+                            <h2 class="mb-30">Fale conosco!</h2>
+                            <ul class="contact-details">
+                                <li><span>Faça seu orçamento!.</span></li>
+                                <li>
+                                    <span>Parnamirim | Rio Grande do Norte, Brasil</span>
+                                </li>
+                                <li><span>+55 84 996005812</span></li>
+                                <li>
+                                    <span>marcelosena_nat@hotmail.com</span>
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                    <div class="col"> 
+                        <form class="formulario" action="pagina.php"method="POST">
+                                        <h3>envie uma mensagem preenchendo o fomulário abaixo:</h3>
+                                        <div class="field">
+                                            <label for="nome">Nome:</label>
+                                            <input type="text" id="nome"name="nome" placeholder="Digite seu nome" requirid>
+                                            </div> 
+                                            <div class="field"> 
+                                                <label for="tel">Telefone:</label>  
+                                                <input type="text" id="Telefone" name="Telefone"placeholder="Digite seu Telefone" requirid> 
+                                            </div>   
+                                            <div class="field"> 
+                                                <label for="cpf">Cpf:</label>  
+                                                <input type="text" id="cpf" name="cpf"placeholder="Digite seu cpf" requirid> 
+                                            </div>   
+                                            <div class="field"> 
+                                                <label for="E-mail">E-mail:</label>  
+                                                <input type="text" id="E-mail" name="E-mail"placeholder="Digite seu E-mail" requirid> 
+                                            </div>   
+                                            <p> Data de ingresso na empresa: <input type= "date" name= " data de ingresso"/> 
+                                            <p> Selecione o seu curso:
+                                            <select name=" sua especialidade" > 
+                                                <option value="web desing">WEB DESING </option>
+                                                <option value="desing gráfico">DESING GRÁFICO </option>
+                                                <option value="back end">BACK END </Option>
+                                                </p>
+                                            </select>
+                                            <p> Observações:<br/>
+                                                <textarea name="Obs" > texto Inicial </textarea>            
+                                            </p>                    
+                                                <input type="submit" value="Submeter"/>           
+
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </section>
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
