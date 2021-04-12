@@ -16,9 +16,8 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-
         <header class="fixed-top header-scrolled topo shadow ">
-        <div class="container">
+            <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container">
@@ -89,15 +88,15 @@
                                 </form>
                             </div>
                         </div>
-                </nav> 
-                    
-            </header>
+                    </nav>
+        </header>
+        
 
-        </div>
-        <section class="section">
+        
+        
             <div class="container">
-                <div class="row">
-                    <div class="col nome">
+                <div class="row cola">
+                    <div class="col-6 nome">
                         <div class="contact-contact">
                             <h2 class="mb-30">Fale conosco!</h2>
                             <ul class="contact-details">
@@ -109,16 +108,22 @@
                                 <li>
                                     <span>marcelosena_nat@hotmail.com</span>
                                 </li>
+                                <li>
+                                    <span>marcoslopes_nat@hotmail.com</span>
+                                </li>
+                                <li>
+                                    <span>gabriel_nat@hotmail.com</span>
+                                </li>
                             </ul>
                         </div>   
                     </div>
-                    <div class="col"> 
+                    <div class="col-6  "> 
                         <form class="formulario" action="pagina.php"method="POST">
-                                        <h3>envie uma mensagem preenchendo o fomulário abaixo:</h3>
-                                        <div class="field">
-                                            <label for="nome">Nome:</label>
-                                            <input type="text" id="nome"name="nome" placeholder="Digite seu nome" requirid>
-                                            </div> 
+                            <h3>Envie uma mensagem preenchendo o fomulário abaixo:</h3>
+                                <div class="field">
+                                    <label for="Nome">Nome:</label>  
+                                    <input type="text" id="nome" name="Nome"placeholder="Digite seu nome" requirid>           
+                                </div> 
                                             <div class="field"> 
                                                 <label for="tel">Telefone:</label>  
                                                 <input type="text" id="Telefone" name="Telefone"placeholder="Digite seu Telefone" requirid> 
@@ -131,24 +136,24 @@
                                                 <label for="E-mail">E-mail:</label>  
                                                 <input type="text" id="E-mail" name="E-mail"placeholder="Digite seu E-mail" requirid> 
                                             </div>   
-                                            <p> Data de ingresso na empresa: <input type= "date" name= " data de ingresso"/> 
+                                            <p> Data: <input type= "date" name= " data de ingresso"/> 
                                             <p> Selecione o seu curso:
                                             <select name=" sua especialidade" > 
-                                                <option value="web desing">WEB DESING </option>
-                                                <option value="desing gráfico">DESING GRÁFICO </option>
-                                                <option value="back end">BACK END </Option>
+                                                <option value="web desing">Web Desing </option>
+                                                <option value="desing gráfico">Desing Gráfico </option>
+                                                <option value="back end">Back End </Option>
                                                 </p>
                                             </select>
                                             <p> Observações:<br/>
                                                 <textarea name="Obs" > texto Inicial </textarea>            
                                             </p>                    
-                                                <input type="submit" value="Submeter"/>           
+                           <input type="submit" value="Submeter"/>           
 
                         </form>
                     </div>
                 </div> 
             </div>
-        </section>
+        
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
