@@ -1,7 +1,7 @@
 .topo {
-    padding: 20px 0;
+    padding: 8px 0;
     position: relative;
-}
+    }
 .banner-topo .img-destaque {
     max-width: 300px;
 }
@@ -24,8 +24,8 @@
 }
 .h14 {
     color: rgb(40, 56, 56);
-    padding-left:  5%;
-    padding-right:  5%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 150px;
@@ -34,8 +34,11 @@
 .bold {
     font-weight: bold;
 }
-.form{
+.form {
     padding-left: 100px;
+}
+.d{
+    padding-top: 20px;
 }
 .btn {
     padding-left: 3%;
@@ -55,11 +58,9 @@
     bottom: 0;
     right: 0;
     background: #000;
-    opacity: 0.7;
-   }
-   .destaque{
-       
-   }
+    opacity: 0.8;
+}
+
 .banner-topo {
     padding-top: 20px;
     margin-bottom: 2%;
@@ -75,7 +76,6 @@
 .sobre {
     padding-left: 50px;
     margin-top: 100px;
-
 }
 .conteiner {
     margin-left: 2%;
@@ -85,21 +85,19 @@
     background: rgb(148, 148, 219);
     color: rgb(10, 10, 10);
 }
-.formulario
-{
-width: 400px;
-padding: 30px;
-border:1px solid black ;
-}
-.section
-{
-margin: 50px;
-padding:20px;
-border: 1px black;
-}
-.nome{
-border: 1px solid black;
-background-color: aqua;
-padding: 60px;
 
+.formulario {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid rgb(168, 167, 167);
+}
+.section {
+    margin: 50px;
+    padding: 10px;
+    border: 1px black;
+}
+.nome {
+    border: 1px solid rgb(168, 167, 167);
+    background-color: rgb(229, 226, 226);
+    padding: 60px;
 }
